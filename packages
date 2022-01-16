@@ -82,6 +82,7 @@ luci-mod-status
 luci-mod-system
 mtd
 netifd
+nginx
 openwrt-keyring
 opkg
 procd
