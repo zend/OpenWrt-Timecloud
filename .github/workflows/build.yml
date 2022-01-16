@@ -35,7 +35,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build the custom image
         run: |
-          cd openwrt-imagebuilder*
+          cd openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/
           PACKAGES=""
           while read -r line; do
             PACKAGES="${PACKAGES} ${line}"
