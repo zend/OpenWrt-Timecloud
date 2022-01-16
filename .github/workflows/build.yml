@@ -46,6 +46,7 @@ jobs:
         uses: actions/upload-artifact@v2.3.1
         with:
           # Artifact name
+          name: openwrt-ramips-mt7621-thunder_timecloud-squashfs-sysupgrade.bin
           # A file, directory or wildcard pattern that describes what to upload
           path: openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-thunder_timecloud-squashfs-sysupgrade.bin
           # The desired behavior if no files are found using the provided path.
