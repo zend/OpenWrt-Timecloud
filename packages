@@ -39,12 +39,10 @@ kmod-lib-crc-ccitt
 kmod-lib-crc16
 kmod-mmc
 kmod-nf-conntrack
-kmod-nf-conntrack6
 kmod-nf-flow
 kmod-nf-ipt
 kmod-nf-nat
 kmod-nf-reject
-kmod-nf-reject6
 kmod-nls-base
 kmod-nls-cp437
 kmod-nls-iso8859-1
@@ -67,7 +65,9 @@ luci-app-aria2
 luci-app-ddns
 luci-app-firewall
 luci-app-hd-idle
+luci-app-https-dns-proxy
 luci-app-opkg
+luci-app-samba4
 luci-app-upnp
 luci-app-wol
 luci-base
@@ -91,6 +91,7 @@ rpcd-mod-file
 rpcd-mod-iwinfo
 rpcd-mod-luci
 rpcd-mod-rrdns
+samba4-server
 swconfig
 terminfo
 ubi-utils
