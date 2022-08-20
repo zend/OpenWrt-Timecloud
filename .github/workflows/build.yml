@@ -30,12 +30,12 @@ jobs:
         run: |
           sudo apt install build-essential libncurses5-dev libncursesw5-dev zlib1g-dev gawk git gettext libssl-dev xsltproc rsync wget unzip python
           wget https://downloads.openwrt.org/releases/21.02.3/targets/ramips/mt7621/openwrt-imagebuilder-21.02.3-ramips-mt7621.Linux-x86_64.tar.xz
-          tar xf openwrt-imagebuilder-*.tar.xz
+          tar xf openwrt-imagebuilder-21.02.3-ramips-mt7621.Linux-x86_64.tar.xz
 
       # Runs a set of commands using the runners shell
       - name: Build the custom image
         run: |
-          cd openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/
+          cd openwrt-imagebuilder-21.02.3-ramips-mt7621.Linux-x86_64/
           PACKAGES=""
           while read -r line; do
             PACKAGES="${PACKAGES} ${line}"
@@ -48,7 +48,7 @@ jobs:
           # Artifact name
           name: openwrt-ramips-mt7621-thunder_timecloud-squashfs-sysupgrade.bin
           # A file, directory or wildcard pattern that describes what to upload
-          path: openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-thunder_timecloud-squashfs-sysupgrade.bin
+          path: openwrt-imagebuilder-21.02.3-ramips-mt7621.Linux-x86_64/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-thunder_timecloud-squashfs-sysupgrade.bin
           # The desired behavior if no files are found using the provided path.
           
 
