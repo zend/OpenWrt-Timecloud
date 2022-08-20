@@ -49,7 +49,7 @@ jobs:
           path: openwrt-imagebuilder-21.02.3-ramips-mt7621.Linux-x86_64/bin/targets/ramips/mt7621/openwrt-21.02.3-ramips-mt7621-thunder_timecloud-squashfs-sysupgrade.bin
           # The desired behavior if no files are found using the provided path.
       
-      - name: Upload a Build Artifact
+      - name: Auto Release
         uses: CupOfTea696/gh-action-auto-release@v1.0.0
         with:
           title: "Release: $version"
