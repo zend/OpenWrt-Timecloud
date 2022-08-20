@@ -8,7 +8,7 @@ config global
 	option check_fs '0'
 
 config mount
-	option uuid 'f11e2398-a7d0-4781-8c77-3f0b35a0f1ae'
+	option device '/dev/mmcblk0p1'
 	option target '/overlay'
 	option enabled '1'
 
