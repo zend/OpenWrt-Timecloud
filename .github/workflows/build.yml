@@ -30,7 +30,7 @@ jobs:
         run: |
           sudo apt install build-essential libncurses5-dev libncursesw5-dev zlib1g-dev gawk git gettext libssl-dev xsltproc rsync wget unzip python
           wget https://downloads.openwrt.org/releases/21.02.3/targets/ramips/mt7621/openwrt-imagebuilder-21.02.3-ramips-mt7621.Linux-x86_64.tar.xz
-          tar xf openwrt-imagebuilder-ramips-mt7621.Linux-x86_64.tar.xz
+          tar xf openwrt-imagebuilder-*.tar.xz
 
       # Runs a set of commands using the runners shell
       - name: Build the custom image

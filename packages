@@ -1,5 +1,3 @@
-aria2
-ariang
 base-files
 block-mount
 busybox
@@ -16,12 +14,9 @@ firewall
 fstools
 fwtool
 getrandom
-git
 hd-idle
 ip-full
 iptables
-jshn
-jsonfilter
 kernel
 kmod-crypto-crc32c
 kmod-crypto-hash
@@ -61,7 +56,6 @@ kmod-usb3
 logd
 lua
 luci
-luci-app-aria2
 luci-app-ddns
 luci-app-firewall
 luci-app-hd-idle
@@ -74,7 +68,6 @@ luci-base
 luci-compat
 luci-lib-ip
 luci-lib-ipkg
-luci-lib-jsonc
 luci-lib-nixio
 luci-mod-admin-full
 luci-mod-network
@@ -82,15 +75,9 @@ luci-mod-status
 luci-mod-system
 mtd
 netifd
-nginx
 openwrt-keyring
 opkg
 procd
-rpcd
-rpcd-mod-file
-rpcd-mod-iwinfo
-rpcd-mod-luci
-rpcd-mod-rrdns
 samba4-server
 swconfig
 terminfo

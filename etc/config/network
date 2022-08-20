@@ -21,7 +21,11 @@ config interface 'lan'
 	option netmask '255.255.255.0'
 	option ip6assign '60'
 
-config interface 'home'
+config interface 'MKLAN'
+	option proto 'static'
 	option device 'br-lan'
-	option proto 'dhcp'
+	option ipaddr '192.168.2.2'
+	option netmask '255.255.255.0'
+	option gateway '192.168.2.1'
+	list dns '192.168.2.1'
 
