@@ -75,12 +75,14 @@ luci-mod-status
 luci-mod-system
 mtd
 netifd
+openssh-sftp-server
 openwrt-keyring
 opkg
 procd
 samba4-server
 swconfig
 terminfo
+tmux
 ubi-utils
 ubox
 ubus
