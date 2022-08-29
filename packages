@@ -23,7 +23,6 @@ kmod-crypto-hash
 kmod-fs-exfat
 kmod-fs-ext4
 kmod-fs-nfs
-kmod-fs-nfs-v3
 kmod-fs-nfs-v4
 kmod-fs-ntfs
 kmod-fs-vfat
