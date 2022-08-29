@@ -22,6 +22,9 @@ kmod-crypto-crc32c
 kmod-crypto-hash
 kmod-fs-exfat
 kmod-fs-ext4
+kmod-fs-nfs
+kmod-fs-nfs-v3
+kmod-fs-nfs-v4
 kmod-fs-ntfs
 kmod-fs-vfat
 kmod-gpio-button-hotplug
@@ -75,6 +78,7 @@ luci-mod-status
 luci-mod-system
 mtd
 netifd
+nfs-utils
 openssh-sftp-server
 openwrt-keyring
 opkg
